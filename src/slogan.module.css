@@ -1,0 +1,28 @@
+.slogan {
+  height: 300px;
+
+  background-color: sienna;
+  display: flex ;
+  justify-content: center;
+
+}
+.slogan2{
+  width: 80%;
+  height: 20%;
+}
+.centere{
+  width: 80%;
+  border: 1px solid;
+  padding: 20px 0;
+}
+.form{
+
+  height: 80%;
+  display: flex ;
+
+  justify-content: center;
+
+  align-items: flex-end;
+}
+
+

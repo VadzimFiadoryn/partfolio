@@ -1,0 +1,16 @@
+.contacts {
+  height: 50vh;
+  background-color: hotpink;
+  display: flex ;
+  justify-content: center;
+}
+
+.center1 {
+  width: 80%;
+}
+
+.centr {
+
+  justify-content: center;
+  border: 1px solid;
+}

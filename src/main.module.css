@@ -1,0 +1,25 @@
+.main {
+  height: 360px;
+  background-color: red;
+  display: flex ;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  /*   border: 1px solid;*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+    border: 1px solid;
+}
+.greeting{
+ width: 80%;
+  border: 1px solid;
+}
+
+.photo{
+ /*height: 50px;
+  width: 50px;
+  border-color: aqua;*/
+}
