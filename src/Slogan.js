@@ -9,7 +9,7 @@ function Slogan() {
 
             <div className={styles.centere}>
                 <div className={styles.slogan2}>
-                    Slogan
+                    Slogan jgjhgkjgkjg
                 </div>
                 <div className={styles.form}>
                     <form >

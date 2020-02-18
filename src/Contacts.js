@@ -6,14 +6,20 @@ function Contacts() {
     return (
 
         <div className={styles.contacts}>
-            <div className={styles.center1}>
-                <form className={styles.centr}>
-                    header
-                    <input/><br/>
-                    <input/><br/>
-                    <input/><br/>
-                    <button>нажать</button>
-                </form>
+            <div className={styles.conteiner}>
+                <div className={styles.centr}>
+                    <div className={styles.spanBlock}>
+                        <span className={styles.text}>контакты</span>
+                    </div>
+                    <form className={styles.formF}>
+                        <input/>
+                        <input/>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </form>
+                    <div className={styles.flexButton}>
+                        <button className={styles.button}>нажать</button>
+                    </div>
+                </div>
             </div>
         </div>
     )

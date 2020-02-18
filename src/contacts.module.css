@@ -1,16 +1,47 @@
 .contacts {
-  height: 50vh;
-  background-color: hotpink;
-  display: flex ;
-  justify-content: center;
+    height: 80vh;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
 }
 
-.center1 {
-  width: 80%;
+.text {
+    align: "left";
+}
+
+.conteiner {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+
 }
 
 .centr {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
 
-  justify-content: center;
-  border: 1px solid;
+.spanBlock {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+}
+
+.button {
+    border: 1px solid;
+}
+
+.flexButton {
+}
+
+.formF {
+    display: flex;
+    flex-direction: column;
 }
