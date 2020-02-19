@@ -2,6 +2,7 @@
     height: 70px;
     background-color: green;
     display: flex;
+    justify-content: center;
 }
 .nav {
     width: 360px;
