@@ -4,18 +4,12 @@
     display: flex;
     justify-content: center;
 }
-
-.text {
-    align: "left";
-}
-
 .conteiner {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid;
-
 }
 
 .centr {
@@ -23,8 +17,7 @@
     flex-direction: column;
     height: 80%;
     width: 40%;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid;
 }
 

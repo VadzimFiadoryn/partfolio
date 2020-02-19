@@ -9,7 +9,7 @@ function Contacts() {
             <div className={styles.conteiner}>
                 <div className={styles.centr}>
                     <div className={styles.spanBlock}>
-                        <span className={styles.text}>контакты</span>
+                        <span>контакты</span>
                     </div>
                     <form className={styles.formF}>
                         <input/>

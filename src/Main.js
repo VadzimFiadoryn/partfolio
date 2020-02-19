@@ -9,11 +9,11 @@ function Main() {
             <div className={styles.container}>
                 main
                 <div className={styles.greeting}>
+                    <span> Текст </span>
+                    <p>
                         <span> Текст </span>
-                        <p>
-                            <span> Текст </span>
-                            </p>
-                                <span> Текст </span>
+                    </p>
+                    <span> Текст </span>
                 </div>
                 <div className={styles.photo}>
                     <img src={require('../src/myPng.png')}
@@ -21,8 +21,8 @@ function Main() {
                 </div>
             </div>
         </div>
-)
-;
+    )
+        ;
 }
 
 
