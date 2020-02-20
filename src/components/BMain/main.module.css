@@ -11,6 +11,7 @@
     border: 1px solid;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .greeting {
@@ -18,5 +19,5 @@
 }
 
 .photo {
-    width: 250px;
+    width: 200px;
 }

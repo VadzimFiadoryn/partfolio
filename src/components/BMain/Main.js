@@ -10,8 +10,8 @@ function Main() {
                 <div className={styles.greeting}>
                     <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis dolore dolores esse ex iure quam, quasi vero. Beatae commodi eligendi est laborum minima omnis pariatur praesentium quia, quod temporibus.</span>
                 </div>
-                <div className={styles.photo}>
-                    <img src={require('../../assets/img/myPng.png')}
+                <div >
+                    <img className={styles.photo} src={require('../../assets/img/myPng.png')}
                          alt="photo"/>
                 </div>
             </div>

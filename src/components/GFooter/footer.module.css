@@ -16,7 +16,7 @@
 
 .box {
     display: flex;
-    width: 290px;
+    width: 250px;
     justify-content: space-between;
 }
 
