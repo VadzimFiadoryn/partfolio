@@ -1,0 +1,18 @@
+.slogan {
+    min-height: 20pt;
+    display: flex;
+    justify-content: center;
+}
+
+.centr {
+    width: 80%;
+    border: 1px solid;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+

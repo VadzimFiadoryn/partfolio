@@ -1,7 +1,6 @@
 .main {
     display: flex;
-    height: 360px;
-    background-color: red;
+    min-height: 100vh;
     justify-content: center;
 }
 
@@ -10,16 +9,14 @@
     display: flex;
     align-items: center;
     border: 1px solid;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .greeting {
-    width: 80%;
-    border: 1px solid;
-
+    width: 360px;
 }
 
 .photo {
-    /*height: 50px;
-     width: 50px;
-     border-color: aqua;*/
+    width: 250px;
 }

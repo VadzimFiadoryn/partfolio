@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerWidth {
+    width: 80%;
+    border: 1px solid;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navget {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+}
+
+.photo {
+    height: 100px;
+}

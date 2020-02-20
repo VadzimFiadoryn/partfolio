@@ -1,0 +1,29 @@
+.skills {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navget {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 200px;
+}
