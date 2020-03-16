@@ -9,7 +9,7 @@ function Contacts() {
             <div className={styles.conteiner}>
                 <div className={styles.centr}>
                     <div className={styles.spanBlock}>
-                        <h1>Contacts</h1>
+                        <h1 id="Contacts">Contacts</h1>
                     </div>
                     <form className={styles.formF}>
                         <input/>

@@ -2,13 +2,15 @@
     height: 70px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    background: #ffffff
 }
 
 .nav {
     width: 360px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .container {
@@ -18,3 +20,26 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+/*.link{*/
+/*    text-decoration: none;*/
+/*    position: relative;*/
+/*}*/
+/*.link:hover{*/
+/*    border-bottom: 7px solid red;*/
+/*    z-index: -1;*/
+/*}*/
+a {
+    position: relative;
+    color: #999999;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    bottom: 0;
+    background-color: #0070BB;
+}
+
